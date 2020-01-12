@@ -8,4 +8,17 @@
 
 html{
 	font-size: 62.5%
+	font-size:1.6rem;
+}
+
+h1{
+	font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p{
+	font-size: 2rem;
 }
