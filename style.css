@@ -8,7 +8,6 @@
 
 html{
 	font-size: 62.5%
-	font-size:1.6rem;
 }
 
 h1{
@@ -21,4 +20,47 @@ label,
 input,
 p{
 	font-size: 2rem;
+}
+
+h2{
+	font-size: 4.8rem;
+}
+ h3{
+ 	font-size: 3rem;
+ }
+ h4,
+ h5{
+ 	font-size: 2.8rem;
+ }
+ a{
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+ /*
+nav section with hero below
+ */
+
+ .main-head{
+ 	background: #131c27;
+ }
+nav{
+	color: white;
+	min-height: 7vh;
+	display: flex;
+	width:90%;
+	margin: auto;
+	align-items: center;
+	padding: 2rem;
+}
+
+nav ul {
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+#logo{
+flex: 2 1 40rem;
 }
