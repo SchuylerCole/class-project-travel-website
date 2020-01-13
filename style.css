@@ -123,6 +123,7 @@ font-weight: : normal;
 	align-items: center;
 	color: white;
 	position: relative;
+	overflow: hidden;
 }
 .locations-head{
 	width: 90%;
@@ -149,13 +150,23 @@ font-weight: : normal;
 }
 
 .moving-cloud-1{
-
+	animation: cloudAnimation 3s infinite alternate ease-in-out;
 }
 
 .moving-cloud-2{
 	top:20%;
 	z-index: -1;
 	opacity: 0.5;
+	animation: cloudAnimation 3s infinite alternate ease-in-out;
+}
+
+@keyframes cloudAnimation {
+	from{
+		transform: translate(10%,-10%);
+	}
+	to{
+		transform: translate(0%,0%);
+	}
 }
 
 /* media query below*/
