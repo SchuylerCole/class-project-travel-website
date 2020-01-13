@@ -118,6 +118,7 @@ font-weight: : normal;
 	flex-direction: column;
 	align-items: center;
 	color: white;
+	position: relative;
 }
 .locations-head{
 	width: 90%;
@@ -137,6 +138,20 @@ font-weight: : normal;
 	suppose to make text gradient fill. Bug need fixing*/
 }
 
+.cloud{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
+
+.moving-cloud-1{
+
+}
+
+.moving-cloud-2{
+	top:20%;
+	z-index: -1;
+}
 
 /* media query below*/
 @media screen and (max-width: 950px){
