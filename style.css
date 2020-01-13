@@ -46,7 +46,7 @@ nav section with hero below
  }
 nav{
 	color: white;
-	min-height: 7vh;
+	min-height: 10vh;
 	display: flex;
 	width:90%;
 	margin: auto;
@@ -63,4 +63,11 @@ nav ul {
 }
 #logo{
 flex: 2 1 40rem;
+}
+
+.hero{
+	min-height: 90vh;
+	background: url("./img/landing-page.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
