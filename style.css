@@ -105,6 +105,37 @@ font-weight: : normal;
 
 }
 
+
+/*locations section below*/
+
+#locations{
+	min-height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5),transparent), url("img/new-york-page.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+.locations-head{
+	width: 90%;
+	margin:auto;
+	background-color: blue; 
+}
+
+.locations-head h2{
+	padding: 1rem 0rem;
+	text-decoration: underline;
+}
+
+.locations-head h3{
+	padding: 4rem 0rem;
+}
+
+
+/* media query below*/
 @media screen and (max-width: 950px){
 	nav{
 		text-align: center;
