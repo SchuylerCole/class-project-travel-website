@@ -61,6 +61,9 @@ nav section with hero below
 
  .main-head{
  	background: #131c27;
+ 	position: sticky;
+	top: 0px;
+	z-index: 3;
  }
 nav{
 	color: white;
