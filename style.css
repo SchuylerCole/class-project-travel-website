@@ -265,6 +265,32 @@ padding: 1rem;
 	padding: 1rem 3rem;
 }
 
+/* footer below*/
+
+footer{
+	color: white;
+	background: rgba(19, 28, 39, 1);
+}
+.footerwrapper{
+	display: flex;
+	padding: 2rem;
+	width:90%;
+	margin:auto;
+	align-items: center;
+	min-height: 10vh;
+	flex-wrap: wrap;
+}
+
+footer h5{
+	flex: 1 1 40rem;
+}
+footer ul{
+	display: flex;
+	list-style: none;
+	flex: 1 1 40rem;
+	justify-content: space-between;
+}
+
 /* media query below*/
 @media screen and (max-width: 950px){
 	nav{
@@ -293,6 +319,18 @@ padding: 1rem;
 }
 	.locations h3{
 		background: white;
+	}
+
+	.formwrapper{
+		width:100%;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer h5{
+		padding-bottom: 3rem;
 	}
 
 }
